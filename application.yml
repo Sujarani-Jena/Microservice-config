@@ -2,13 +2,6 @@ spring:
   application:
     name: Config-Default
 
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Sujarani-Jena/Microservice-config
-          clone-on-start: true
-
   eureka:
     client:
       service-url:
